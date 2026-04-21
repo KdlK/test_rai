@@ -1,0 +1,130 @@
+DEBUG _on_finished: tim_mode=False
+DEBUG response: {"action": "open_renga", "args": {}}
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "open_renga", "args": {}}
+DEBUG: in TIM mode block, response={"action": "open_renga", "args": {}}
+DEBUG _on_finished: tim_mode=True
+DEBUG response: � �� ����� ���������� � ���� ������ � ���, ��� ��������� ����� ����. ��������, ��� �������� ����� ������ ������� ��� �������. �������� ������, ����� � ��� ������ ��� �����������.
+
+(���� �� ������ ����
+DEBUG: in TIM mode block, response=� �� ����� ���������� � ���� ������ � ���, ��� ���
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "calculate_volume", "args": {"category": "walls"}}
+DEBUG: in TIM mode block, response={"action": "calculate_volume", "args": {"category"
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "open_renga", "args": {}}
+DEBUG: in TIM mode block, response={"action": "open_renga", "args": {}}
+DEBUG _on_finished: tim_mode=True
+DEBUG response: ������������ ���������� ��� ���������� �������. ����� ��������� ����� �����, ��� ���������� ������� ��������� ��� ������, �� �������� ������� ���������� �����. 
+
+��� �������� ������ ���������� �������
+DEBUG: in TIM mode block, response=������������ ���������� ��� ���������� �������. ��
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "calculate_volume", "args": {"category": "walls"}}
+DEBUG: in TIM mode block, response={"action": "calculate_volume", "args": {"category"
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: ������, ��� �� ������ ��������� ����� ����. ��� ����� � ���� ��������� ������� `calculate_volume` � ���������� `"category": "walls"`.
+
+��� �����:
+
+{"action": "calculate_volume", "args": {"category": "
+DEBUG: in TIM mode block, response=������, ��� �� ������ ��������� ����� ����. ��� ��
+DEBUG _on_finished: tim_mode=True
+DEBUG response: � ��� ������� �� ���� ������ �����. ��������� ���������� ���� � ���� ������, � ���� �������� ������� �� �� �����.
+
+��� �����:
+
+{"action": "calculate_volume", "args": {"category": "walls"}}
+DEBUG: in TIM mode block, response=� ��� ������� �� ���� ������ �����. ��������� ����
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "open_renga", "args": {}}
+DEBUG: in TIM mode block, response={"action": "open_renga", "args": {}}
+DEBUG user_message: ������ �����
+DEBUG _on_finished: tim_mode=True
+DEBUG response: ��� �� ������� ���������� � ���� ������ ��� ���������� ���� ������. ���������� ����������, ����� ������ ������� ���������� ��� ������� ������ ����.
+
+����������, �������� ��� ������������ �������������
+DEBUG: in TIM mode block, response=��� �� ������� ���������� � ���� ������ ��� ������
+DEBUG user_message: ����� ����
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "open_renga", "args": {}}
+DEBUG: in TIM mode block, response={"action": "open_renga", "args": {}}
+DEBUG user_message: ������ �����
+DEBUG _on_finished: tim_mode=True
+DEBUG response: � ���������, � ���� ������ ��� ���������� � ���, ��� ��������� ����� ���������� �����������. �������� ��������: ��� ������� ������ ���������� ������� ��������� �����������.
+
+���� �� ������ ��������� �
+DEBUG: in TIM mode block, response=� ���������, � ���� ������ ��� ���������� � ���, �
+DEBUG user_message: ����� ����
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "calculate_volume", "args": {"category": "walls"}}
+DEBUG: in TIM mode block, response={"action": "calculate_volume", "args": {"category"
+DEBUG user_message: ����� ����
+DEBUG: TIM mode=False, state=0
+DEBUG _on_finished: tim_mode=False
+DEBUG response: � ���� ������ �� ������� ���������� ���������� � ���������� ������ "������� �����". ��������, �� ������ � ���� ���������� ����� � ������ ��� �����-���� ������ ��������. ����� �������� ����� ������ ���
+DEBUG: TIM mode=True, state=2
+DEBUG: TIM mode=False, state=0
+DEBUG _on_finished: tim_mode=False
+DEBUG response: ��, � �������! ������������ � ������ � ������� �� ������� �������������. ����� � ������ � ����� ������ Rengai/resources. ��� � ���� ��� ������?
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "calculate_volume", "args": {"category": "walls"}}
+DEBUG: in TIM mode block, response={"action": "calculate_volume", "args": {"category"
+DEBUG user_message: ����� ����
+DEBUG: TIM mode=False, state=0
+DEBUG _on_finished: tim_mode=False
+DEBUG response: ��, � �������. ��� ������ � �������� ������������� � ������� Renga. ��� ��� ����������?
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "open_renga", "args": {}}
+DEBUG: in TIM mode block, response={"action": "open_renga", "args": {}}
+DEBUG user_message: ������ �����
+DEBUG _on_finished: tim_mode=True
+DEBUG response: ������������ ���������� ��� ����������� ���������. ��� ������� ������ ��������� �������� category.
+
+���������� ������� ���������, ��������: ����� (walls), ���� (floors) � �.�.
+DEBUG: in TIM mode block, response=������������ ���������� ��� ����������� ���������.
+DEBUG user_message: ����� ����
+DEBUG _on_finished: tim_mode=True
+DEBUG response: {"action": "calculate_volume", "args": {"category": "walls"}}
+DEBUG: in TIM mode block, response={"action": "calculate_volume", "args": {"category"
+DEBUG user_message: ����� ����
+DEBUG _on_finished: tim_mode=False
+DEBUG response: ��, � �������! � ��-��������� ��� ������ ������������� � ������ � Renga. ����� ��� ������ � �������� ���� ��������� � ������������� Renga.
+DEBUG: TIM mode=True, state=2
+DEBUG _on_finished: tim_mode=True
+DEBUG response: ��, � �������! ����� ���-��������� �������. ��� � ���� ������ ���?
+DEBUG: in TIM mode block, response=��, � �������! ����� ���-��������� �������. ��� � 
+DEBUG user_message: �� ��������� ?
+DEBUG: TIM mode=False, state=0
+DEBUG: TIM mode=True, state=2
+DEBUG: TIM mode=False, state=0
+DEBUG _on_finished: tim_mode=False
+DEBUG response: ��, � �������! �� ������ ������� ��������� Renga? ��� ����� �������� ��������� �����:
+
+1. ������� ���� .renga ��� ����� � ������� Renga �� ����� ����������.
+2. �������������� �� ����.
+3. ����� ������ 
+DEBUG _on_finished: tim_mode=False
+DEBUG response: ��, � �������. ����� ��������� ������ Renga, �� ������:
+
+1. ������� ������������ ������ � Renga
+2. ������� ����� ������ � ������ ������ ��� ���.
+
+���� � ��� ��������� �����-���� ������� ��� ��������, 
+DEBUG _on_finished: tim_mode=False
+DEBUG response: ��, � �������! ���� ������ � ������� �� �������. ���� �� ������ ������� ���-�� � Renga, ������� ��� � ���������� �������� ��� ��������, � � ��������� ������ ��� ������ ��.
+DEBUG _on_finished: tim_mode=False
+DEBUG response: ��, � �������! ���� � ��� ���� ������� �� ������ � Renga ��� �������������, � ����� ������ � �������� �� ��� �� ������ ���� ���� ������.
+DEBUG _start_llm_request: messages count=17
+DEBUG sending 17 messages to LLM
+DEBUG _on_finished: tim_mode=False
+DEBUG response: ��, � �������! �� ������ �������� ��� ������� �� Renga, �������������, BIM-�������������� � ������ �����, ��������� � �������������� �������������� � �������������. ��������� �������!
+DEBUG: TIM mode=True, state=2
